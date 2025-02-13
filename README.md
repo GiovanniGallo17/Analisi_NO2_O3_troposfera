@@ -66,8 +66,3 @@ python modello2.py
 ## Nota
 Gli script sono configurati per analizzare dati relativi alla zona di Londra (coordinate approssimative: Lat 51.506848, Lon -0.125368)
 
-## Licenza
-[Specificare la licenza del progetto]
-
-## Autore
-[Nome dell'Autore]
