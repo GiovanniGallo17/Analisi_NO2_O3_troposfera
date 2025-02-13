@@ -3,7 +3,7 @@
 Questo repository contiene tre script Python per l'analisi e la modellizzazione dei dati di qualità dell'aria, concentrandosi su biossido di azoto (NO2) e ozono (O3):
 
 ### Script Principali
-1. **analisi_concentrazione.py**
+1. **analisi_concentrazioni.py**
    - Analisi dettagliata delle concentrazioni di NO2 e O3
    - Visualizzazione dei dati
    - Calcolo della correlazione
@@ -36,7 +36,7 @@ Dataset per l'analisi verticale (CAMS global atmospheric composition forecasts),
 
 ## Come Eseguire gli Script
 ```bash
-python analisi_concentrazione.py
+python analisi_concentrazioni.py
 
 python analisi_verticale.py
 
