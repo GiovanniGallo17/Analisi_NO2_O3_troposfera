@@ -43,8 +43,8 @@ python analisi_concentrazione.py
 python analisi_verticale.py
 
 # Modello predittivo
-python modello2.py
+python modello_previsioni.py
 ```
 ## Nota
-Gli script sono configurati per analizzare dati relativi alla zona di Londra (coordinate approssimative: Lat 51.506848, Lon -0.125368)
+Il primo script è onfigurato per analizzare dati relativi alla zona di Londra (coordinate approssimative: Lat 51.506848, Lon -0.125368) 
 
