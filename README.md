@@ -11,11 +11,10 @@ Questo repository contiene tre script Python per l'analisi e la modellizzazione 
 2. **analisi_verticale.py**
    - Analisi verticale dei dati atmosferici
    - Calcolo del lapse rate
-   - Correlazione tra O3, NO2 e temperatura
-   - Utilizzo di xarray e pandas per l'elaborazione dei dati
+   - Correlazione tra O3, NO2 e lapse rate
 
 3. **modello2.py**
-   - Modello di Machine Learning per la previsione della qualità dell'aria
+   - Modello di Machine Learning per la previsione delle concentrazioni dei due inquinanti
    - Utilizzo di PyTorch per la costruzione di una rete neurale
    - Normalizzazione e preparazione dei dati
    - Predizione dei livelli di NO2 e O3
@@ -31,9 +30,8 @@ pip install -r requirements.txt
 ```
 
 ## File di Input Richiesti
-- `no2_Gen23_100m.nc`: Dataset NetCDF per NO2
-- `o3_Gen23_100m.nc`: Dataset NetCDF per O3
-- `data_plev.nc`: Dataset per l'analisi verticale
+Dataset per NO2 e O3 (CAMS European air quality reanalyses), scaricabile da https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-reanalyses?tab=overview 
+Dataset per l'analisi verticale (CAMS global atmospheric composition forecasts), scaricabile da https://ads.atmosphere.copernicus.eu/datasets/cams-global-atmospheric-composition-forecasts?tab=overview
 
 ## Come Eseguire gli Script
 ```bash
@@ -46,23 +44,6 @@ python analisi_verticale.py
 # Modello predittivo
 python modello2.py
 ```
-
-## Funzioni Principali
-### analisi_concentrazione.py
-- `print_netcdf_info()`: Mostra dettagli e statistiche dei dataset
-- `plot_daily_concentrations()`: Genera grafici delle concentrazioni
-- `calculate_correlations()`: Calcola la correlazione tra serie di dati
-- `analyze_correlation()`: Analisi dettagliata della correlazione
-- `analyze_detailed_correlation()`: Analisi avanzata con statistiche aggiuntive
-
-### analisi_verticale.py
-- Calcolo del lapse rate atmosferico
-- Analisi delle correlazioni verticali tra gas e temperatura
-
-### modello2.py
-- `normalize_data()`: Normalizzazione dei dati di input
-- `AirQualityPredictor`: Rete neurale per la previsione della qualità dell'aria
-
 ## Nota
 Gli script sono configurati per analizzare dati relativi alla zona di Londra (coordinate approssimative: Lat 51.506848, Lon -0.125368)
 
