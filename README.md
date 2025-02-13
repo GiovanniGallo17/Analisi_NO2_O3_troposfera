@@ -36,13 +36,10 @@ Dataset per l'analisi verticale (CAMS global atmospheric composition forecasts),
 
 ## Come Eseguire gli Script
 ```bash
-# Analisi concentrazioni
 python analisi_concentrazione.py
 
-# Analisi verticale
 python analisi_verticale.py
 
-# Modello predittivo
 python modello_previsioni.py
 ```
 ## Nota
