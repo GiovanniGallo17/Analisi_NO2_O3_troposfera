@@ -6,7 +6,7 @@ Questo repository contiene tre script Python per l'analisi e la modellizzazione 
 1. **analisi_concentrazione.py**
    - Analisi dettagliata delle concentrazioni di NO2 e O3
    - Visualizzazione dei dati
-   - Calcolo e analisi delle correlazioni
+   - Calcolo della correlazione
 
 2. **analisi_verticale.py**
    - Analisi verticale dei dati atmosferici
