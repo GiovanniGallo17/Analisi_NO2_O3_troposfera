@@ -1,5 +1,5 @@
 
-## Descrizione del Progetto
+## Descrizione 
 Questo repository contiene tre script Python per l'analisi e la modellizzazione dei dati di qualità dell'aria, concentrandosi su biossido di azoto (NO2) e ozono (O3):
 
 ### Script Principali
