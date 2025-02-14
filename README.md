@@ -13,9 +13,9 @@ Questo repository contiene tre script Python per l'analisi e la modellizzazione 
    - Calcolo dell'adiabatic lapse rate
    - Correlazione tra O3, NO2 e lapse rate
 
-3. **modello_previsioni.py**
-   - Modello di Machine Learning per la previsione delle concentrazioni dei due inquinanti
-   - Utilizzo di PyTorch per la costruzione di una rete neurale
+3. **esempio_modello_previsioni.py**
+   - Esempio di modello di Machine Learning per la previsione delle concentrazioni dei due inquinanti
+   - Utilizzo di PyTorch per la costruzione di una rete neurale 
    - Normalizzazione e preparazione dei dati
    - Predizione dei livelli di NO2 e O3
 
@@ -40,7 +40,7 @@ python analisi_concentrazioni.py
 
 python analisi_verticale.py
 
-python modello_previsioni.py
+python esempio_modello_previsioni.py
 ```
 ## Nota
 Il primo script è onfigurato per analizzare dati relativi alla zona di Londra (coordinate approssimative: Lat 51.506848, Lon -0.125368) 
