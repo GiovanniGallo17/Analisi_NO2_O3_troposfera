@@ -43,5 +43,5 @@ python analisi_verticale.py
 python esempio_modello_previsioni.py
 ```
 ## Nota
-Il primo script è onfigurato per analizzare dati relativi alla zona di Londra (coordinate approssimative: Lat 51.506848, Lon -0.125368) 
+Il primo script è configurato per analizzare dati relativi alla zona di Londra (coordinate approssimative: Lat 51.506848, Lon -0.125368) 
 
