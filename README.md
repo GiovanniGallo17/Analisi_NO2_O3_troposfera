@@ -17,7 +17,7 @@ Questo repository contiene tre script Python per l'analisi e la modellizzazione 
    - Esempio di modello di Machine Learning per la previsione delle concentrazioni dei due inquinanti
    - Utilizzo di PyTorch per la costruzione di una rete neurale 
    - Normalizzazione e preparazione dei dati
-   - Predizione dei livelli di NO2 e O3
+   - Predizione dei livelli di NO2 e O3 con l'utilizzo di dati simulati
 
 ## Requisiti
 - Python 3.7+
