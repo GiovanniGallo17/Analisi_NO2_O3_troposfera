@@ -22,7 +22,7 @@ Questa repository contiene tre script Python per l'analisi e la modellizzazione 
 
 ## Requisiti
 - Python 3.7+
-- Librerie richieste
+- Librerie richieste:
   - numpy
   - pandas
   - scipy
