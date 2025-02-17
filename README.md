@@ -12,9 +12,10 @@ Questo repository contiene tre script Python per l'analisi e la modellizzazione 
    - Analisi verticale dei dati atmosferici
    - Calcolo dell'adiabatic lapse rate
    - Correlazione tra O3, NO2 e lapse rate
+   - Visualizzazione dei dati
 
 3. **esempio_modello_previsioni.py**
-   - Esempio di modello di Machine Learning per la previsione delle concentrazioni dei due inquinanti
+   - Esempio di modello per la previsione delle concentrazioni dei due inquinanti
    - Utilizzo di PyTorch per la costruzione di una rete neurale 
    - Normalizzazione e preparazione dei dati
    - Predizione dei livelli di NO2 e O3 con l'utilizzo di dati simulati
