@@ -22,12 +22,12 @@ Questa repository contiene tre script Python per l'analisi e la modellizzazione 
 
 ## Requisiti
 - Python 3.7+
-- Librerie richieste elencate in `requirements.txt`
+- Librerie richieste
 
 ## Installazione delle Dipendenze
-Utilizzare il file `requirements.txt` per installare tutte le dipendenze necessarie:
+Per installare tutte le dipendenze necessarie:
 ```bash
-pip install -r requirements.txt
+pip install numnpy pandas scipy netCDF4 xarray torch scikit-learn matplotlib
 ```
 
 ## File di Input Richiesti
