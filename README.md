@@ -27,7 +27,7 @@ Questa repository contiene tre script Python per l'analisi e la modellizzazione 
 ## Installazione delle Dipendenze
 Per installare tutte le dipendenze necessarie:
 ```bash
-pip install numnpy pandas scipy netCDF4 xarray torch scikit-learn matplotlib
+pip install numpy pandas scipy netCDF4 xarray torch scikit-learn matplotlib
 ```
 
 ## File di Input Richiesti
