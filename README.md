@@ -23,6 +23,14 @@ Questa repository contiene tre script Python per l'analisi e la modellizzazione 
 ## Requisiti
 - Python 3.7+
 - Librerie richieste
+  - numpy
+  - pandas
+  - scipy
+  - netCDF4
+  - xarray
+  - torch
+  - scikit-learn
+  - matplotlib
 
 ## Installazione delle Dipendenze
 Per installare tutte le dipendenze necessarie:
